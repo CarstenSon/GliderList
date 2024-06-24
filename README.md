@@ -1,4 +1,5 @@
 ![WeGlide gliderlist](./logo-gliderlist.png)
+
 # gliderlist
 
 Open and standardized collection of gliders. GliderList has two main goals:
@@ -17,12 +18,25 @@ Open and standardized collection of gliders. GliderList has two main goals:
 GliderList is used by WeGlide internally. WeGlide aims to provide numerical data on many aircraft in GliderList for people to do further research with.
 GliderList will be actively maintained and compliance with naming conventions is and will be checked with manufacturers directly.
 
-There exist two lists, base.csv and extended.csv. Base is a list of all base models (e.g. LS 8) where all the different models (e.g. LS 8T) are stated by regular expressions.
-Extended is automatically generated out of base and includes all the different variants of the base models. Only extended includes the unique identifiers.
-
 ## Schema / Documentation
 
 Intent of the following data schema is to be readable for humans and machines while enforcing strict rules and being open to extensions (e.g. other types of information for gliders like polars or numerical information).
+
+## What models are included
+
+Gliders should have a unique row in gliderlist if their handling or engine option differs from existing types.
+
+A unique row is applicable if the aircraft has (compared to existing type)
+
+* Increased MTOW
+* Winglets
+* Different fuselage / wings
+
+It is not applicable if the aircraft has (compared to existing type)
+
+* Automatic control connections
+* A different cockpit
+* A different main wheel / break-system
 
 ### ID
 
@@ -50,22 +64,24 @@ Manufacturer of the aircraft. Sometimes multiple manufacturers are possible so t
 * Open
 * Standard
 
-### Winglets
+### Kind
 
-Whether this aircraft has winglets in case the base model does not have winglets. This field is needed to calculate higher index (+1) based on base model.
-**Warning**: This does not indicate if aircraft has winglets.
+* GL -> Gl
+* MG -> Motorglider (Engine)
+* FG -> FES Glider (FES)
 
 ### Double Seater
 
 Whether aircraft has two seats.
 
-### FES
+### Winglets
 
-Whether engine is of kind FES (Front Electrical Sustainer). Only applicable if Engine evaluates to true.
+Whether this aircraft has winglets in case the base model does not have winglets. This field is needed to calculate higher index (+1) based on base model.
+**Warning**: This does not indicate if aircraft has winglets.
 
-### Engine
+### Exclude from Live
 
-Whether aircraft has **any** kind of motorization.
+Indication if most flights with this aircraft are done in pure powered mode.
 
 ### Year
 
@@ -74,4 +90,4 @@ Competition index (DMSt) for different years.
 ## Contribute
 
 Contributions of new gliders or corrections of naming conventions are very welcome. Just open a pull request and we will review.
-If adding a model in the extended list, leave the ID field empty as it is automatically added.
+Please consider whether the model applies to be added.
