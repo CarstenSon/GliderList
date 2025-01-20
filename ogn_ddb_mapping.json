@@ -76,7 +76,7 @@
     "name": "Ventus 2b"
   },
   "Glasflugel H301": {
-    "id": 53,
+    "id": 59,
     "name": "H-301"
   },
   "Ventus 2M": {
@@ -1191,5 +1191,37 @@
   "AS 33Me": {
     "id": 496,
     "name": "AS 33 Me 18m"
+  },
+  "Slingsby T51 Dart 15": {
+    "id": 542,
+    "name": "Slingsby T.51 Dart"
+  },
+  "LS-11": {
+    "id": 344,
+    "name": "LS 11"
+  },
+  "Weihe 50": {
+    "id": 234,
+    "name": "Weihe 50"
+  },
+  "Mu 31": {
+    "id": 13,
+    "name": "Mü 31"
+  },
+  "SGS 1-34": {
+    "id": 557,
+    "nanme": "Schweizer SGS 1-34"
+  },
+  "DG-600 18M": {
+    "id": 101,
+    "name": "DG 600M 18m"
+  },
+  "Antares 21 E": {
+    "id": 562,
+    "name": "Antares 21E"
+  },
+  "HPH 304TS": {
+    "id": 341,
+    "name": "HpH 304 TS Twin Shark"
   }
 }

@@ -5,6 +5,8 @@ OGN_DDB_URL = "https://ddb.glidernet.org/download/?j=1&t=1"
 
 # aircrafts which we do not want to track
 no_mapping = [
+    "Castel 25-S",
+    "MD 600",
     "Valmet PIK-23 Towmaster",
     "LET LF-107 Lunak",
     "Swift 3-E",
@@ -122,7 +124,6 @@ no_mapping = [
     "Vans RV-9",
     "Cessna 175",
     "Extra 330",
-    "SGS 1-34",
     "Rallye 180T-D",
     "VL3 Evolution",
     "CallAir A-9",
@@ -308,4 +309,3 @@ def test_all_mapped():
             continue
 
         assert name in all_we_know
-

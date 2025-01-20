@@ -177,7 +177,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 179,fs 25,fs 25,Akaflieg Stuttgart,Club,GL,,,,,,92,92,92,92,92,92,92,92,92
 180,G 102 Club Astir,G 102 Club Astir,Grob Aircraft,Club,GL,,,,,,91,91,91,91,91,91,91,91,91
 181,SZD-51 Junior,SZD-51 Junior,Allstar PZL Glider,Club,GL,,,,,,90,90,90,90,90,90,90,90,90
-182,Std. Austria SH 1,Std. Austria SH 1,Schempp-Hirt,Club,GL,,,,x,,90,90,90,90,90,90,90,90,90
+182,Std. Austria SH 1,Std. Austria SH 1,Schempp-Hirth,Club,GL,,,,x,,90,90,90,90,90,90,90,90,90
 183,Zugvogel IIIb,Zugvogel IIIb,Scheibe-Flugzeugbau,Club,GL,,,,x,,90,90,90,90,90,90,90,90,90
 184,ASK 18,ASK 18,Alexander Schleicher,Club,GL,,,,x,,88,88,88,88,88,88,88,88,88
 185,Geier,Geier,Allgaier,Club,GL,,,,x,,88,88,88,88,88,88,88,88,88
@@ -654,3 +654,22 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 665,Wassmer WA-26,Wassmer WA-26,Wassmer Aviation,Club,GL,,,,x,,86,86,86,86,86,86,86,86,86
 666,ICA IS-32,ICA IS-32,ICA,Double,GL,x,,,,,107,107,107,107,107,107,107,107,107
 667,Bowlus Baby Albatross,Bowlus Baby Albatross,Hawley Bowlus,Club,GL,,,,x,,51,51,51,51,51,51,51,51,51
+668,KW-1,KW-1,IPE,Club,GL,,,,,,78,78,78,78,78,78,78,78,78
+669,SZD-52 Krokus,SZD-52 Krokus,PZL Bielsko,Club,GL,,,,,,102,102,102,102,102,102,102,102,102
+670,Slingsby T.6 Kirby Kite,Slingsby T.6 Kirby Kite,Slingsby,Club,GL,,,,x,,62,62,62,62,62,62,62,62,62
+671,Slingsby T.13 Petrel,Slingsby T.13 Petrel,Slingsby,Club,GL,,,,x,,76,76,76,76,76,76,76,76,76
+672,Schweizer SGS 1-21,Schweizer SGS 1-21,Schweizer Aircraft,Club,GL,,,,x,,80,80,80,80,80,80,80,80,80
+673,Schweizer SGU 1-19,Schweizer SGU 1-19,Schweizer Aircraft,Club,GL,,,,x,,54,54,54,54,54,54,54,54,54
+674,Laister-Kauffman LK-10,Laister-Kauffman LK-10,Laister-Kauffman,Club,GL,,,,x,,61,61,61,61,61,61,61,61,61
+675,Robinson JR-V,Robinson JR-V,Robinson,Club,GL,,,,x,,54,54,54,54,54,54,54,54,54
+676,Schweizer SGS 1-23,Schweizer SGS 1-23,Schweizer Aircraft,Club,GL,,,,x,,68,68,68,68,68,68,68,68,68
+677,Schweizer SGS 1-23,Schweizer SGS 1-23D,Schweizer Aircraft,Club,GL,,,,x,,77,77,77,77,77,77,77,77,77
+678,Schweizer SGS 1-23,Schweizer SGS 1-23G,Schweizer Aircraft,Club,GL,,,,x,,77,77,77,77,77,77,77,77,77
+679,Schweizer SGS 1-23,Schweizer SGS 1-23H,Schweizer Aircraft,Club,GL,,,,x,,81,81,81,81,81,81,81,81,81
+680,Ventus 15m,Ventus c 15m,Schempp-Hirth,15,GL,,,,,,110,110,110,110,110,110,110,110,110
+681,WLM-1,WLM-1,Weber-Landholf-Münch,Club,GL,,,,x,,64,64,64,64,64,64,64,64,64
+682,PW 2,PW 2,PZL Świdnik,Club,GL,,,,,,47,47,47,47,47,47,47,47,47
+683,Mü 13 E Bergfalke I,Mü 13 E Bergfalke I,Scheibe-Flugzeugbau,Club,GL,x,,,x,,65,65,65,65,65,65,65,65,65
+684,Gö-4,Gö-4,Schempp-Hirth,Club,GL,x,,,x,,54,54,54,54,54,54,54,54,54
+685,L-13SE Vivat,L-13SE Vivat,LET,Double,MG,x,,,,x,74,74,74,74,74,74,74,74,74
+686,Schneider ES-60,Schneider ES-60,Edmund Schneider,Club,GL,,,,x,,79,79,79,79,79,79,79,79,79
